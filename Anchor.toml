@@ -1,0 +1,12 @@
+[programs.devnet]
+challenge_001 = "3R5tn5uPJULaLmipfjJrzdaQVu9pgBWY3AAL2wXTYBoe"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/phu/.config/solana/id.json"
+
+[scripts]
+test = "yarn ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
